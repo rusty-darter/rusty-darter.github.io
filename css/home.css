@@ -41,7 +41,7 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .bg_image_1::after {
-    background-image: url(../img/placeholder-home-hotel-image.webp)
+    background-image: url(../img/placeholder-home-hotel-image.webp);
   }
 }
 
@@ -53,4 +53,4 @@ body {
   .bg_image_1::after {
     background-image: url(../img/placeholder-home-hotel-image.png);
   }
-} */
+}

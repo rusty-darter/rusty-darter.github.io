@@ -51,44 +51,23 @@
 
 /* Timeline CSS ends */
 
-.arthur-wilson img.young-arthur-img {
+.arthur-wilson img {
   max-width: 30vw;
 }
 
-.arthur-wilson img.old-arthur-img {
+.the-propitius img {
   max-width: 30vw;
 }
 
-.arthur-wilson img.dire-town-img {
-  max-width: 30vw;
-}
-
-.arthur-wilson img.skulls-img {
-  max-width: 30vw;
-}
-
-.arthur-wilson img.prohibition-cartoon-img {
-  max-width: 30vw;
-}
-
-.the-propitius img.hotel-img {
-  max-width: 30vw;
-}
-
-.propitius-floor-plan img {
-  max-height: 80vh;
+.the-propitius .propitius-floor-plan img {
+  max-width: unset;
+  max-height: 70vh;
 }
 
 section.container.pt-2.pb-4.d-block.d-sm-none div.card.shadow-sm {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-section.container.pt-2.pb-4.d-block.d-sm-none div.card.shadow-sm .image-text {
-  /* position: relative;
-  vertical-align: middle;
-  z-index: 1; */
 }
 
 section.container.pt-2.pb-4.d-block.d-sm-none div.card.propitius-hotel-card {
@@ -104,6 +83,19 @@ section.container.pt-2.pb-4.d-block.d-sm-none div.card.dire-town-card {
 section.container.pt-2.pb-4.d-block.d-sm-none div.card.arthur-wilson-card {
   aspect-ratio: 4/5;
   background-image: url(../img/smaller-young-arthur-wilson.webp);
+}
+
+.nav .nav-item .nav-link {
+  color: #aaa;
+}
+.nav .nav-item .nav-link.active {
+  background-color: var(--dark-burgundy);
+  border-top-color: #aaa;
+  border-left-color: #aaa;
+  border-right-color: #aaa;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 /* This media query will apply to all devices with screens

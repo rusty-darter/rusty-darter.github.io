@@ -2,3 +2,8 @@ html,
 body {
   height: 85%;
 }
+
+main section img {
+  max-height: 30vh;
+  aspect-ratio: original;
+}

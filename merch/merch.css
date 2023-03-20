@@ -4,6 +4,6 @@ body {
 }
 
 main section img {
-  max-height: 30vh;
-  aspect-ratio: original;
+  max-width: 30vh;
+  width: auto;
 }

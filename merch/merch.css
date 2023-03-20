@@ -4,6 +4,6 @@ body {
 }
 
 main section img {
-  max-width: 30vh;
+  max-height: 50vh;
   width: auto;
 }

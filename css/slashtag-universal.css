@@ -3,6 +3,10 @@
   --dark-burgundy: #440313;
 }
 
+:target {
+  scroll-margin-top: 10vh;
+}
+
 html,
 body {
   font-family: athelas, serif;

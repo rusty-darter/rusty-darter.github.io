@@ -4,9 +4,8 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-  .container {
-    height: 100%;
+  img.cover-img {
+    width: auto;
+    max-height: 50%;
   }
-}
-
 }

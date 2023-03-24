@@ -21,7 +21,7 @@ body {
 /* @media (min-width: 576px) { ... } */
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 700px) and (min-height: 700px) {
+@media (min-width: 700px) {
   body
     > div.container-fluid.bg_image_1.text-light.gx-0
     > div

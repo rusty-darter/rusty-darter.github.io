@@ -7,12 +7,6 @@ body {
   font-size: calc(0.8rem + 0.4vw);
 }
 
-#propitius-hotel-splash-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 @media (min-width: 1200px) {
   .lead {
     font-size: calc(0.5rem + 0.4vw);
@@ -27,15 +21,12 @@ body {
 /* @media (min-width: 576px) { ... } */
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 700px) {
-  /* body
-    > div.container-fluid.bg_image_1.text-light.gx-0
-    > div
-    > img.propitius-hotel-splash-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #propitius-hotel-splash-img {
+    height: 50vh;
+    display: block;
+    margin: auto;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

@@ -100,4 +100,8 @@ section.container.pt-2.pb-4.d-block.d-sm-none div.card.arthur-wilson-card {
   .the-propitius img.lead-hotel-img {
     max-width: 25vw;
   }
+
+  .the-propitius .propitius-floor-plan img {
+    max-width: 60vw;
+  }
 }

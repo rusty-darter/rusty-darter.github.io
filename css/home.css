@@ -2,7 +2,11 @@
 body {
   height: 90%;
 } */
-/*
+
+img.img-fluid {
+  max-width: 120%;
+  height: auto;
+}
 
 .lead {
   font-size: calc(0.8rem + 0.4vw);

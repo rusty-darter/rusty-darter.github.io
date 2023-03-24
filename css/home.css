@@ -3,23 +3,6 @@ body {
   height: 90%;
 } */
 /*
-.bg_image_1 {
-  position: relative;
-}
-
-.bg_image_1::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  filter: brightness(0.1);
-  background: #9d9086;
-  background-image: url(../img/smaller-placeholder-home-hotel-image.webp);
-  background-position: center 30%;
-  background-repeat: no-repeat;
-  background-size: calc(max(50%, 950px));
-  opacity: 0.7;
-} */
 
 .lead {
   font-size: calc(0.8rem + 0.4vw);
@@ -40,9 +23,6 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .bg_image_1::after {
-    background-image: url(../img/placeholder-home-hotel-image.webp);
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -50,7 +30,4 @@ body {
 /*
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .bg_image_1::after {
-    background-image: url(../img/placeholder-home-hotel-image.png);
-  }
 }

@@ -22,9 +22,13 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 700px) and (min-height: 700px) {
-  html,
-  body {
+  body
+    > div.container-fluid.bg_image_1.text-light.gx-0
+    > div
+    > img.propitius-hotel-splash-image {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 

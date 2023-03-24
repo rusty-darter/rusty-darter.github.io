@@ -24,6 +24,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   #propitius-hotel-splash-img {
     height: 50vh;
+    aspect-ratio: 30/16;
     display: block;
     margin: auto;
   }

@@ -5,6 +5,7 @@ body {
 
 img.img-fluid {
   max-width: 120%;
+  
   height: auto;
 }
 

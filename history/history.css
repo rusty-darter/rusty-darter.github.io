@@ -59,9 +59,9 @@
   max-width: 30vw;
 }
 
-.the-propitius .propitius-floor-plan img {
-  max-width: unset;
-  max-height: 70vh;
+.propitius-floor-plan img {
+  max-width: 100%;
+  height: auto;
 }
 
 section.container.pt-2.pb-4.d-block.d-sm-none div.card.shadow-sm {

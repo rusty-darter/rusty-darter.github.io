@@ -1,0 +1,15 @@
+.tab-content .desktop-contestant-profile img.desktop-contestant-profile-img {
+  max-height: 40vh;
+}
+.nav .nav-item .nav-link {
+  color: #aaa;
+}
+.nav .nav-item .nav-link.active {
+  background-color: var(--dark-burgundy);
+  border-top-color: #aaa;
+  border-left-color: #aaa;
+  border-right-color: #aaa;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
